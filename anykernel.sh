@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Oneplus Offical kernel with Clang @ xda-developers
+kernel.string=Oneplus Offical kernel with newest Clang @ xda-developers
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
