@@ -26,10 +26,11 @@ echo 300000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
 echo 300000 > /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq
 
 devices=$(getprop ro.product.vendor.device)
-if [ "$devices" = "OnePlus5T" ]; then
-    echo 1 > /proc/fliker_free/fliker_free
+if [ "$devices" = "OnePlus5T" ] || [ "$devices" = "dumpling" ]; then
     echo 370 > /proc/fliker_free/min_brightness
-else
     echo 1 > /proc/fliker_free/fliker_free
+fi
+if [ "$devices" = "OnePlus5" ] || [ "$devices" = "cheeseburger" ]; then
     echo 66 > /proc/fliker_free/min_brightness
+    echo 1 > /proc/fliker_free/fliker_free
 fi

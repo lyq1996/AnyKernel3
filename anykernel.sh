@@ -4,17 +4,17 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Oneplus Offical kernel with newest Clang @ xda-developers
+kernel.string=lcblues Kernel by lyq1996 @ https://github.com/lyq1996
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=dumpling
 device.name2=cheeseburger
-device.name3=
-device.name4=
+device.name3=OnePlus5T
+device.name4=OnePlus5
 device.name5=
-supported.versions=9.0.0
+supported.versions=9.0
 supported.patchlevels=
 '; } # end properties
 
