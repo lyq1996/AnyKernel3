@@ -14,7 +14,7 @@ device.name2=cheeseburger
 device.name3=OnePlus5T
 device.name4=OnePlus5
 device.name5=
-supported.versions=9
+supported.versions=9.0 - 10.0
 supported.patchlevels=
 '; } # end properties
 
